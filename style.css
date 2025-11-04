@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(50deg, rgb(41, 40, 40) , #8d1e31);
+}
+
+.conteiner{
+    background-color: white;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.titulo{
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tam{
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.tam:hover{
+    transform: translateY(-5px);
+    box-shadow: 4px 7px 1px #8d1e31;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 16px;
+}
+
+.formu{
+    display: flex;
+}
+
+.formu i{
+    background-color: #8d1e31;
+    padding: 15px;
+    width: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.formu input{
+    padding: 15px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.form-conteiner button{
+    padding: 15px;
+    width: 200px;
+    margin: auto;
+    border-radius: 8px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.form-conteiner button:hover{
+    transform: translateY(-5px);
+    box-shadow: 4px 7px 1px #8d1e31;
+}
+
+.information-senha{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+
+.sign{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+@media (max-width: 768px){
+    .conteiner{
+        width: 90%;
+    }
+}
+
+.form-conteiner{
+    width: 90%;
+    align-items: center;
+
+}
